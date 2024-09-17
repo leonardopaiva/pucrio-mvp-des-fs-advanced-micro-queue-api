@@ -1,5 +1,6 @@
 # Ignorar arquivos de log
 log/
+database/
 
 node_modules/
 
