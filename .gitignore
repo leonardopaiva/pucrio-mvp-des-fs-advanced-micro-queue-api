@@ -1,0 +1,7 @@
+# Ignorar arquivos de log
+log/
+
+node_modules/
+
+*.tmp
+__pycache__/
