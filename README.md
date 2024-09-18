@@ -42,3 +42,23 @@ automaticamente após uma mudança no código fonte.
 ```
 
 Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para verificar o status da API em execução.
+
+
+
+/* 
+	MVP - PUCRS
+*/
+
+# MVP Overview
+
+The purpose of this app is to allow the user to register medical appointments and view them on a map or in list format.  
+
+I tried to reorganize the app.py by separating some responsibilities, I left only the definition of the routes, and I moved the functions to a separate file, the 'services' of each module.  
+
+## About This Project
+
+This is the first MVP of the Full Stack Development Postgraduate Program at PUCRS University, Rio de Janeiro.
+
+**Student**: Leonardo Souza Paiva  
+**Portfolio**: [www.leonardopaiva.com](http://www.leonardopaiva.com)  
+**API URL pucrio-mvp-des-fs-basico-api**: [APP URL](https://github.com/leonardopaiva/pucrio-mvp-des-fs-basico-app)
