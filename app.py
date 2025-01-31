@@ -26,6 +26,21 @@ def home():
     """
     return redirect('/openapi')
 
+
+@app.get('/hello', tags=[home_tag])
+def hello():
+    """Retorna um simples HTML com a mensagem Hello World"""
+    return """
+    <html>
+        <head>
+            <title>Hello World</title>
+        </head>
+        <body>
+            <h1>Hello World</h1>
+        </body>
+    </html>
+    """
+
 #///////////////////////////////////////////////////////////////////////////////////////
 #PRODUTOS
 #///////////////////////////////////////////////////////////////////////////////////////
