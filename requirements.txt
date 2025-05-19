@@ -13,3 +13,4 @@ python-jose[cryptography]
 requests
 pytest
 pudb
+gunicorn
